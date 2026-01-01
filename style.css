@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #0b1d12, #132b1b);
+    color: #eaffea;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url("https://i.imgur.com/E9nZB9F.png") repeat;
+    border-bottom: 4px solid #1aff6b;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #1aff6b;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 16px;
+    background: #1aff6b;
+    color: #003b1f;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 15%;
+}
+
+h2 {
+    color: #1aff6b;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* SELLERS */
+.sellers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seller-card {
+    background: #0f2a1b;
+    border: 2px solid #1aff6b;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px;
+    text-align: center;
+    width: 280px;
+}
+
+.seller-card img {
+    width: 120px;
+    image-rendering: pixelated;
+    margin-bottom: 15px;
+}
+
+/* GALLERY */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid #1aff6b;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #0b1d12;
+    border-top: 3px solid #1aff6b;
+}
